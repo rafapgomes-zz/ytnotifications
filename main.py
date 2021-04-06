@@ -10,7 +10,7 @@ renato_id = 'UChMJkHCD2wdvSO7CMOuLR-w'
 leoruiz_id = 'UCCgZZd8zy-OyiVtQ5WeOV6w'
 thyreis_id = 'UCQ0IutRW590TSJUDyBPP2Pw'
 gui_id = 'UC_XGgRFoktKUXZVD1_tp7EA'
-
+renan_id = 'UCPJ6Diqv10p-rOfWdKSRs9w'
 def getytvideoid(yt_id):
     response = youtube.GetchannelInfo(yt_id)
     number = youtube.Getplaylistid(response)
@@ -51,4 +51,5 @@ while True:
     main('Leo',leoruiz_id)
     main('Thi',thyreis_id)
     main('Gui',gui_id)
-    time.sleep(10)
+    main('Renan',renan_id)
+    time.sleep(60)
