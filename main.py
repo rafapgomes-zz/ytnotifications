@@ -19,7 +19,6 @@ def getytvideoid(yt_id):
     return video
 
 def compara(num,vet):
-    print(vet)
     for vid_id in vet:
         if vid_id == num:
             return 1
