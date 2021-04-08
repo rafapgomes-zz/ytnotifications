@@ -1,7 +1,6 @@
 import youtube
 import twitter
 import time
-import threading
 
 
 twitter_id ='1371881979252252681'
