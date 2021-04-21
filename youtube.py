@@ -20,6 +20,7 @@ def GetchannelInfo(channelId):
 
 
 def Getplaylistid(response):
+   print(response)
    for item in response['items']:
      return item['contentDetails']['relatedPlaylists']['uploads']
 
